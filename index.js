@@ -2,7 +2,7 @@ import express from "express";
 import { mongo } from "./mongo.js";
 import cors from "cors";
 import dotenv from "dotenv";
-import { route as detailsRoute } from "routes.js";
+import { route as detailsRoute } from "./routes/details.routes.js";
 
 (async () => {
   try {

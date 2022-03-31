@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const mongoURL = "mongodb+srv://sangeetha:sangeetha123@cluster0.kl6wa.mongodb.net/job_portal";
-const mongoDbName = "job_portal";
+const mongoDbName = "PP_job_portal";
 
 const mongo = {
   db: null,
